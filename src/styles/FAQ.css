@@ -1,0 +1,30 @@
+.faq-container {
+    max-width: 1400px;
+    width: 100%;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.faq-container:hover {
+    transform: translateY(-5px);
+}
+
+/* FAQ Item */
+.faq-item {
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.4s ease;
+    border: 2px solid transparent;
+}
+.faq-item:hover {
+    transform: translateX(15px);
+    border-color: rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}

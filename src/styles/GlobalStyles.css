@@ -1,0 +1,33 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Hide Scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+* {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+/* CTA Button */
+.cta-button {
+    background: #26A69A;
+    border: none;
+    padding: 12px 24px;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    font-size: 18px;
+}
+.cta-button:hover {
+    background: #1E88E5;
+    transform: scale(1.05);
+}

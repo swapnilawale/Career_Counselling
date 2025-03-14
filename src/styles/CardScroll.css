@@ -1,0 +1,20 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+    align-items: center;
+}
+
+.card {
+    background: #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    width: 300px;
+    text-align: center;
+}
+
+.card__inner {
+    transition: transform 0.2s ease-in-out;
+}

@@ -1,0 +1,41 @@
+.steps-container {
+    padding: 50px 20px;
+    background: black;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    overflow: hidden;
+}
+
+/* Step Text */
+.step h2 {
+    font-size: 32px;
+    color: #FDD835;
+    animation: glow 1.5s infinite alternate;
+}
+.step h3 {
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Animation for Visibility */
+.step {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+.step.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Glow Animation */
+@keyframes glow {
+    from { text-shadow: 0 0 10px #FDD835, 0 0 20px #FDD835; }
+    to { text-shadow: 0 0 20px #FDD835, 0 0 40px #FDD835; }
+}

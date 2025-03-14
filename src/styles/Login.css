@@ -1,0 +1,40 @@
+/* Login.css */
+.login-title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .login-button {
+    background: #667eea;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .login-button:hover {
+    background: #5563c1;
+  }
+  
+  .login-text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .login-text a {
+    color: #667eea;
+    text-decoration: none;
+  }
+  
